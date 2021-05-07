@@ -1,3 +1,16 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.botones {
+    justify-content: center;
+    color: white;
+    border-radius: 5px;   
+}
+.containerImage {
+    width: 300px;
+    background-color: rgb(230,217,218);
+    margin: 10px auto;
+    min-height: 140px;
+    
+}
