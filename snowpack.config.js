@@ -7,4 +7,14 @@ module.exports = {
   buildOptions: {
     baseUrl: ' ',
   },
+  plugins: [
+    [
+      '@snowpack/plugin-webpack',
+      {
+        output: {
+          filename: 'bundle.js',
+        },
+      },
+    ],
+  ],
 }
